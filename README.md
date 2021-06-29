@@ -11,7 +11,7 @@ Being productive with machine learning can therefore be challenging for several 
 - There’s no standard way to package and deploy models.
 - There’s no central store to manage models.
 
-### MLflow Components
+## MLflow Components
 
 MLflow provides four components to help manage the ML workflow:
 
@@ -21,3 +21,11 @@ MLflow provides four components to help manage the ML workflow:
 - **Registry** offers a centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of an MLflow Model.
 
 ![alt text](mlflow.png "MLflow")
+
+### Big Data and Scalability
+
+Machine Learning usually involves working with large datasets, thus making the Machine Learning experiments very time-consuming. MLflow addresses this by supporting -
+
+- execution on distributed cluster
+- input/output from/to distributed storage systems
+- multiple runs in parallel with different parameters
